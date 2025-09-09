@@ -1,0 +1,134 @@
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Encabezado con título y botones */
+.header {
+  display: flex;
+  justify-content: space-between; /* título a la izquierda, iconos a la derecha */
+  align-items: center;
+  padding: 15px 30px;
+  background: #f4f4f9; /* mismo color que el fondo */
+}
+
+/* Estilo del título */
+.header h1 {
+  margin: 0;
+  color: #333;
+}
+
+/* Botones de acciones */
+.header .acciones a {
+  margin-left: 15px;
+  font-size: 20px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.header .acciones a:hover {
+  color: #ff6600; /* Color al pasar el mouse */
+}
+
+/* Barra de navegación */
+.nav {
+  background: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Botones de navegación */
+.nav a {
+  text-decoration: none;
+  color: white;
+  background: #555;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.nav a:hover {
+  background: #ff6600;
+}
+
+/* Contenido */
+.contenido {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Pie de página */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: auto;
+}
+
+footer a {
+  color: #ff6600;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.contenedor {
+  max-width: 800px;
+  margin: auto;
+}
+.item-carrito {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.btn-eliminar,
+.btn-vaciar,
+.btn-pagar {
+  background: #d40b0b;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn-vaciar {
+  background: #f19e04f5;
+}
+.btn-pagar {
+  background: #28a745;
+}
+.btn-eliminar:hover {
+  background: #8f0606;
+}
+.btn-vaciar:hover {
+  background: #b37504f5;
+}
+.btn-pagar:hover {
+  background: #218838;
+}
+.btn-carrito {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

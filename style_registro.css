@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.registro-container {
+  width: 400px;
+  background: white;
+  padding: 40px; /* Espacio uniforme en todos los lados */
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 100px auto;
+  box-sizing: border-box; /* 🔹 incluye padding en el ancho */
+}
+
+.registro-container input {
+  width: 100%; /* Ocupar todo el ancho disponible */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Evita que el padding rompa el ancho */
+}
+
+.registro-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #ff6600;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #e65c00;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.login-link a {
+  color: #ff6600;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* 🔹 Botón casita fijo */
+.btn-home {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background: #ff6600;
+  color: white;
+  font-size: 22px;
+  padding: 10px 12px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s, transform 0.2s;
+  z-index: 1000;
+}
+
+.btn-home:hover {
+  background: #e65c00;
+  transform: scale(1.1);
+}
+
+/* 🔹 Botón inicio de sesión (arriba a la derecha) */
+.btn-login {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background: #333;
+  color: white;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s;
+}
+
+.btn-login:hover {
+  background: #000;
+}
